@@ -26,7 +26,7 @@ pipeline {
         }
         stage("Code coverage") {
             steps {
-                sh "vendor/bin/phpunit --coverage-html 'reports/coverage'"
+		echo "Code coverage...."
             }
         }
         stage("Static code analysis phpstan") {
