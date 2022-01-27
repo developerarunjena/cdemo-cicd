@@ -4,7 +4,7 @@ pipeline {
         stage("Build") {
 		steps{
 		  echo 'Shell command'
-		  shell(readFileFromWorkspace("/tmp/script.sh"))
+		  sh '/tmp/script.sh'
 		}
 	}
     }
