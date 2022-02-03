@@ -1,5 +1,6 @@
 includes:
-    - ./vendor/phpstan/extension.neon
+	- extension.neon
+	- rules.neon
 
 parameters:
 
