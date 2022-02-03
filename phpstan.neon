@@ -1,12 +1,3 @@
-includes:
-	- extension.neon
-	- rules.neon
-
 parameters:
-
-    paths:
-        - app/Http/Controllers/
-
-    level: 6
-
+    level: 7
     checkMissingIterableValueType: false
