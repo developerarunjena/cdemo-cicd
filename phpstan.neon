@@ -1,5 +1,5 @@
 includes:
-    - ./vendor/nunomaduro/phpstan/extension.neon
+    - ./home/jenkins/workspace/php-jenkins-pipeline/
 
 parameters:
 
