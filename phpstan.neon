@@ -1,0 +1,11 @@
+includes:
+    - ./vendor/nunomaduro/phpstan/extension.neon
+
+parameters:
+
+    paths:
+        - app/Http/Controllers/
+
+    level: 6
+
+    checkMissingIterableValueType: false
